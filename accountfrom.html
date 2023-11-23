@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creat account</title>
+</head>
+<body>
+    <h1>create account from</h1>
+
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <ul>
+                <li>
+                    <label for="Full Name">full name</label>
+                    <input type="text" name="name" id="Full Name" placeholder="Franc enemuo" required>
+                </li>
+                <li>
+                    <label for="dob">date of birth</label>
+                    <input type="date" name="date" id="DOB" required> 
+                </li>
+                <li>
+                    <label for="address">Home address</label><br>
+                    <textarea name="address" id="adress" cols="30" rows="2" maxlength="20"></textarea>
+                </li>
+                <li>
+                    <label for="soo">state of origin</label> <br>
+                    <select>
+                        <optgroup label="South">
+                        <option value="Ak">Akwa ibom</option>
+                        <option value="by">Bayelsa</option>
+                        <option value="cr">Cross-River</option>
+                        <option value="Dl">Delta</option>
+                        <option value="ed">Edo</option>
+                        <option value="ri">Rivers</option>
+                    </optgroup>
+
+                    <optgroup label="North">
+
+                        <option value="ni">Niger</option>
+                        <option value="aj">Abuja</option>
+                        <option value="bn">Benue</option>
+                        <option value="kg">Kogi</option>
+                        <option value="KW">Kwara</option>
+                        <option value="pi">platue</option>
+                        <option value="Nn">nasarawa</option>
+                    <optgroup label="">
+
+                    </optgroup>                       
+
+
+                    
+                </select>
+                </li>
+                <li>
+                        <h3>Martial status</h3>
+
+                        <input type="radio" name="status" id="single">
+                        <label for="single">single</label>
+
+                        <input type="radio" name="status" id="married" checked>
+                        <label for="married">married</label>
+
+                        <input type="radio" name="status" id="divorced">
+                        <label for="divorced">divorced</label>
+                </li>
+                <li>
+                        <h3>religion</h3>
+
+                        <label for="islam">Islam</label>
+                        <input type="radio" name="status" id="islam"> 
+
+                        <label for="christain">christian</label>
+                        <input type="radio" name="status" id="christain">
+
+
+                </li>
+                <li>
+                        <h3>Gender</h3> 
+
+                        <label for="male">male</label>
+                        <input type="checkbox" name="status" id="male">
+
+                        <label for="Female">female</label>
+                        <input type="checkbox" name="status" id="Female"> 
+
+                        <label for="Transgender">Trans</label>
+                        <input type="checkbox" name="status" id="Transgender">
+                </li><br>
+                <li>
+                        <label for="Email">Email</label>
+                        <input type="email" name="email" id="Email" placeholder="rdbalogun@icloud.com">
+                </li>
+                <li>
+                        <label for="Telephone">Tel</label>
+                        <input type="tel" name="tel" id="Telephone" placeholder="+234 8127796420">
+                </li>
+                <li>
+                    <h3>means of identification</h3>
+                    <label for="bvn"></label>
+                    <input type="text" name="BVN" id="bvn">
+
+                    <label for="NIN">National identify</label>
+                    <input type="file" name="NIN" id="NIN" img="png">
+
+                    <label for="driverslicense">Driver's license</label>
+                    <input type="file" name="Drivers license" id="driverslicense" img="png">
+                </li>
+            </ul>
+
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
